@@ -1,3 +1,10 @@
 body{
-  color: grey;
+  
+  text-align: center;
+  background-size: cover;
+  background: url("../img/real-genius-01-background.jpg");
+}
+div#quote {
+	height:150px;
+	font-size: 1.5em;
 }
