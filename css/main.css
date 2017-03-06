@@ -1,8 +1,10 @@
 body{
   
   text-align: center;
-  background-size: cover;
-  background: url("../img/real-genius-01-background.jpg");
+background-image:url("../img/real-genius-01-background.jpg");
+background-repeat: no-repeat;
+background-size:cover;
+
 }
 div#quote {
 	height:210px;
