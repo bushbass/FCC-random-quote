@@ -5,6 +5,9 @@ body{
   background: url("../img/real-genius-01-background.jpg");
 }
 div#quote {
-	height:150px;
+	height:175px;
 	font-size: 1.5em;
+}
+button#button {
+	font-weight: bold;	
 }
