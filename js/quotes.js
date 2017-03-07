@@ -77,7 +77,14 @@ quote: "Dr. Meredith: A bit of advice.<br>Mitch: [pulls out notebook to write do
 },
 ];
 
+
+
 $("button#button").on("click", function() {
   var random = Math.floor((Math.random() * 17) );
   $("div#quote").html(quotes[random].quote);
 });
+
+$('#tweetButton').on("click", function(){
+	var currentQuote = $("div#quote").text();
+	$(this).attr('href', 'https://twitter.com/intent/tweet?text='+currentQuote).attr('target', '_blank');
+})
