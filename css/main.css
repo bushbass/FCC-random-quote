@@ -1,21 +1,22 @@
-body{
-background-image:url("../img/real-genius-01-background.jpg");
-background-repeat: no-repeat;
-background-size:cover;
+body {
+  background-image: url("../img/real-genius-01-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 header {
-	text-align: center;
+  text-align: center;
 }
-div#button{
-	text-align: center;
-	padding: 30px 0px;
+div#button {
+  text-align: center;
+  padding: 30px 0px;
 }
 div#quote {
-	height:auto;
-	font-size: 1.5em;
+  height: auto;
+  font-size: 1.5em;
 }
 
-button#button, #tweetButton {
-	font-weight: bold;	
+button#button,
+#tweetButton {
+  font-weight: bold;
 }
